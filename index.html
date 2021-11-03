@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buket Soyhan Websitesi</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h2>Buket Soyhan</h2>
+
+          <ul>
+            <li><a href="#aboutMe">Hakkımda</a></li>
+            <li><a href="#myWorks">Yaptığım İşler</a></li>
+            <li><a href="#comments">Yorumlar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="aboutMe" class="container">
+      <img
+        src="images/buket_s.jpeg"
+        alt="Buket Soyhan"
+        width="200px"
+        height="200px"
+      />
+      <div class="name text-center">
+        <h3>Buket Soyhan</h3>
+        <i>Bilgisayar Mühendisi</i>
+        <p>
+          Merhabalar ben Buket Soyhan. 2016 yılında Eskişehir'e taşındım ve
+          Eskişehir Osmangazi Üniversitesinde Bilgisayar Mühendisliği eğitimi
+          gördüm. Datateam ve EUAS şirketlerinde staj eğitimlerimi tamamladım.
+          Gerekli tüm belgeleri teslim ettim şu an üniversite tarafından
+          mezuniyetimin onaylanmasını bekliyorum. Web geliştirme en çok ilgimi
+          çeken alanlardan biri bunun için sürekli kendimi HTML, CSS, JavaScript
+          ve frameworkleri ağırlıklı olmak üzere geliştirmeye çalışıyorum ve
+          kariyerimin bu alan üzerinde ilerlemesini istiyorum.
+        </p>
+      </div>
+    </section>
+
+    <section id="myWorks">
+      <div class="container-galery">
+        <b>Yaptığım İşler</b>
+        <div class="work">
+          <img src="images/Galata.jpg" alt="Galata Kulesi" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium, architecto consequatur est quaerat reprehenderit amet
+            nulla quam at voluptatem id voluptate inventore ad dolore unde
+            laboriosam ipsa consectetur ipsum et?
+          </p>
+        </div>
+        <div class="work">
+          <img src="images/Ortaköy.jpg" alt="Ortaköy Cami" />
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium, architecto consequatur est quaerat reprehenderit amet
+            nulla quam at voluptatem id voluptate inventore ad dolore unde
+            laboriosam ipsa consectetur ipsum et?
+          </p>
+        </div>
+        <div class="work">
+          <img src="images/Kopru.jpeg" alt="İstanbul Köprüsü" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium, architecto consequatur est quaerat reprehenderit amet
+            nulla quam at voluptatem id voluptate inventore ad dolore unde
+            laboriosam ipsa consectetur ipsum et?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="comments">
+      <div class="container-comments">
+        <form id="comment-form" name="form">
+          <p class="commentText">
+            Yorumlarınız bizim için değerli geri dönüşlerinizi paylaşın
+          </p>
+          <div class="commentArea">
+            <textarea
+              name="commentTextArea"
+              class="commentTextArea"
+              rows="5"
+              cols="120%"
+              placeholder="Yorumunuz..."
+            ></textarea>
+          </div>
+          <button class="commentButton" type="submit">Paylaş</button>
+        </form>
+      </div>
+
+      <div class="card-body">
+        <h3 class="card-title" id="comment-title">Yorumlar</h3>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">
+            <a href="#" class="delete-item">
+              <i class="fa fa-remove"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="contact" class="dark-blue">
+      <div class="contact-form">
+        <form>
+          <h3 class="text-center">Bana Ulaşın</h3>
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Mesaj</label>
+            <textarea
+              class="form-control"
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/buket-soyhan-67292219b/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/buketsoyhan"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/soyhanbuket/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="comment.js"></script>
+  </body>
+</html>

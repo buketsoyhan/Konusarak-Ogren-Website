@@ -1,0 +1,54 @@
+.dark-blue{
+    background: #415a85;
+}
+
+.light-blue{
+    background: #a8a7f0;
+}
+.white{
+    background: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-galery{
+  max-width: 75%;
+  margin: 0 auto;
+}
+.container-comments{
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+  }
+  .btn-block {
+    width: 100%;
+    text-align: center;
+
+  }
+
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 5px;
+}  
